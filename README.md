@@ -13,7 +13,9 @@ export class login {
 }
 d) then import { login } from '../model/login';  
 model = new login('Debashree','debashree');   
-e) <div>
+e)Each input element has a name property that is required by Angular forms to register the control with the form.
+<form #heroForm="ngForm">
+<div>
         <label for="name">User Name:</label>
         <input type="text" id="uname" [(ngModel)]="model.username" name="username" required>
       </div>
